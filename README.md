@@ -43,13 +43,22 @@ forge build
 ```
 
 To run Foundry tests
+
 ```shell
 forge test
 ```
 
 To run coverage for Foundry tests
+
 ```shell
 forge coverage
+```
+
+To deploy the contract to localhost
+
+```sh
+anvil
+forge create Ocean --unlocked --constructor-args "URI"
 ```
 
 For coverage for the **Adapter Contracts** run `forge coverage`
